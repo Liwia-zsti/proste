@@ -1,1 +1,28 @@
-
+h1 {
+    text-align: center;
+}
+#woj {
+    text-align: left;
+    color: brown;
+}
+#list_woj {
+    text-emphasis-color: darkgreen;
+}
+#mias {
+    color: cornflowerblue;
+}
+#atrakcja{
+    border-radius: 1px;
+    border-style:groove;
+}
+#op {
+    text-align: left;
+    
+}
+#opo {
+        width: 25%;
+        height: 250px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+}
