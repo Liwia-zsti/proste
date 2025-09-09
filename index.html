@@ -13,7 +13,7 @@
     <form>
         <label id="woj">Województwo:</label>
         <div id="list_woj">
-            <input list="Województwa">
+            <input list="Województwa" id="t">
             <datalist id="Województwa">
                 <option value="Dolnośląskie">
                 <option value="Śląskie">
@@ -34,20 +34,22 @@
             </datalist> 
         </div>
         <label id="mias">Miasto:</label><br>
-        <input type="text" id="miast" value="<---wpisz miasto--->"><br>
+        <input type="text" id="miast"><br>
         <div id="atrakcja"><p id="atr_tyt">rodzaj akrakcji </p>
             <p>Krajoznawcza<input type="radio" value="kraj"></p>
             <p>Turystyczna<input type="radio" value="tury"></p>
             <p>Historyczna<input type="radio" value="hist"></p>
             <p>Inna<input type="radio" value="inna"></p>
         </div>
-        <input type="button" id="but" value="Potwierdź">
         <div id="opis">
-            <P id="op">opis:<input type="text"></P>
+            <P id="op">opis:<input type="text" id="opo"></P>
             <input type="button" id="dodaj" value="Dodaj">
             <input type="button" id="wycz" value="Wyczyść">
         </div>
     </form>
+<div id="wynik">
+    
+</div>
 <script src="java.js"></script> 
 </body>
 </html>
