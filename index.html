@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Województwa, Miasta</h1>
+    </header>
+    <form>
+        <label id="woj">Województwo:</label>
+        <div id="list_woj">
+            <input list="Województwa">
+            <datalist id="Województwa">
+                <option value="Dolnośląskie">
+                <option value="Śląskie">
+                <option value="Pomorskie">
+                <option value="Zachodniopomorskie">
+                <option value="Kujawsko-pomorskie">
+                <option value="Lubelskie">
+                <option value="Lubuskie">
+                <option value="Małopolskie">
+                <option value="Łódzkie">
+                <option value="Opolskie">
+                <option value="Podkarpacie">
+                <option value="Podlaskie">
+                <option value="Świętokrzyskie">
+                <option value="Warmińsko-mazurskie">
+                <option value="Wielkopolskie">
+                <option value="Mazowieckie">
+            </datalist> 
+        </div>
+        <label id="mias">Miasto:</label><br>
+        <input type="text" id="miast" value="<---wpisz miasto--->"><br>
+        <div id="atrakcja"><p id="atr_tyt">rodzaj akrakcji </p>
+            <p>Krajoznawcza<input type="radio" value="kraj"></p>
+            <p>Turystyczna<input type="radio" value="tury"></p>
+            <p>Historyczna<input type="radio" value="hist"></p>
+            <p>Inna<input type="radio" value="inna"></p>
+        </div>
+        <input type="button" id="but" value="Potwierdź">
+        <div id="opis">
+            <P id="op">opis:<input type="text"></P>
+            <input type="button" id="dodaj" value="Dodaj">
+            <input type="button" id="wycz" value="Wyczyść">
+        </div>
+    </form>
+<script src="java.js"></script> 
+</body>
+</html>
